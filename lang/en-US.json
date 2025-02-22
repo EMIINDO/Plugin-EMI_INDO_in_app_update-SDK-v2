@@ -1,0 +1,42 @@
+{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for in_app_update Plugin",
+  "text": {
+    "plugins": {
+      "emi_indo_in_app_update": {
+        "name": "in_app_update",
+        "description": "this plugin is used for check your app update through play store and if any new version available download by using immediate or flexible option.",
+        "help-url": "https://www.construct.net/en/make-games/addons/plugins",
+        "properties": {},
+        "aceCategories": {
+          "custom": "In-App Update"
+        },
+        "conditions": {
+          "available": {
+            "list-name": "Available",
+            "display-text": "App update available",
+            "description": "App update available"
+          },
+          "noavailable": {
+            "list-name": "No available",
+            "display-text": "No app update available",
+            "description": "No app update available"
+          }
+        },
+        "actions": {
+          "isupdateavailable": {
+            "list-name": "Is update available",
+            "display-text": "is Update Available",
+            "description": "Check app update available or not"
+          }
+        },
+        "expressions": {
+          "response": {
+            "translated-name": "Response",
+            "description": "event response"
+          }
+        }
+      }
+    }
+  }
+}

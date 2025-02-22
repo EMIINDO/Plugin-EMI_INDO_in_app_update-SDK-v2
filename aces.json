@@ -1,0 +1,32 @@
+{
+  "custom": {
+    "conditions": [
+      {
+        "id": "available",
+        "scriptName": "Available",
+        "highlight": false,
+        "isTrigger": true
+      },
+      {
+        "id": "noavailable",
+        "scriptName": "Noavailable",
+        "highlight": false,
+        "isTrigger": true
+      }
+    ],
+    "actions": [
+      {
+        "id": "isupdateavailable",
+        "scriptName": "Isupdateavailable",
+        "highlight": false
+      }
+    ],
+    "expressions": [
+      {
+        "id": "response",
+        "expressionName": "Response",
+        "returnType": "any"
+      }
+    ]
+  }
+}

@@ -3,12 +3,11 @@
     globalThis.C3.Plugins.EMI_INDO_in_app_update.Acts = {
         Isupdateavailable()
         {
-            if (typeof cordova == 'undefined')
+            if (typeof cordova === 'undefined')
             {
                 return;
             }
-            else
-            {};
+    
             const self = this;
             this.cd.isUpdateAvailable(success, fail);
 
